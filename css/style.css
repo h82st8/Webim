@@ -14,35 +14,31 @@
   font-style: normal;
 }
 
-body {
-  background-color: #000;
-}
-
 .wrapper {
-  width: 750px;
-  margin: 0 auto;
+  min-width: 320px;
   background-color: #fff;
 }
 
 .padding {
-  padding-right: 65px;
-  padding-left: 65px;
+  padding-top: 30px;
+  padding-right: 8%;
+  padding-bottom: 30px;
+  padding-left: 8%;
 }
 
 .header {
   display: flex;
-  height: 170px;
+  align-items: center;
 }
 
-.login__list, .nav__list {
+.login__list,
+.nav__list {
   display: none;
 }
 
 .toggler {
   display: flex;
-  align-items: center;
-  width: 57px;
-  height: 43px;
+  width: 40px;
 }
 
 .toggler > span {
@@ -63,7 +59,6 @@ body {
   background-color: #2cd3b8;
 }
 
-
 .toggler > span:before {
   top: 17px;
 }
@@ -74,29 +69,20 @@ body {
 
 .logo {
   flex-grow: 1;
-  padding-top: 63px;
-  padding-left: 136px;
+  text-align: right;
 }
 
 .logo__img {
-  width: 229px;
-  height: 57px;
-}
-
-div.toggler {
-  padding-top: 74px;
+  width: 180px;
 }
 
 .promo {
   background-image: linear-gradient(to top, #eff4f4 98%, #d6dff4);
-  padding-top: 50px;
-  padding-bottom: 45px;
 }
 
 .title {
   font-family: "Ubuntu Bold";
-  font-size: 48px;
-  line-height: 50px;
+  font-size: 25px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   color: #393e6b;
@@ -105,27 +91,24 @@ div.toggler {
 .slogan {
   display: inline-block;
   font-family: "Ubuntu Regular";
-  font-size: 26px;
-  line-height: 36px;
+  font-size: 16px;
   color: #74757b;
 }
 
 .promo__slogan {
-  width: 84%;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .btn {
   display: block;
   width: 100%;
-  height: 90px;
   margin-bottom: 32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border: none;
   border-radius: 50px;
-
   font-family: 'Ubuntu Bold';
-  font-size: 24px;
-  letter-spacing: 1px;
+  font-size: 16px;
   text-transform: uppercase;
   color: #fff;
   background-color: #2cd3b8;
@@ -142,29 +125,18 @@ div.toggler {
   border: 3px solid #393e6b;
 }
 
-.install {
-  padding-top: 50px;
-  padding-bottom: 90px;
-}
-
 .subtitle {
-  width: 50%;
   font-family: "Ubuntu Bold";
-  font-size: 48px;
-  line-height: 50px;
+  font-size: 23px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   color: #393e6b;
 }
 
-.install__slogan {
-  width: 80%;
-}
-
 .install__wrap {
   display: flex;
   width: 100%;
-  margin-top: 80px;
+  margin-top: 30px;
   height: 200px;
   box-sizing: border-box;
 }
@@ -192,9 +164,9 @@ div.toggler {
 .install__link {
   display: inline-block;
   width: 60%;
-  padding-left: 40px;
+  padding-left: 5%;
   font-family: "Ubuntu Regular";
-  font-size: 26px;
+  font-size: 20px;
   letter-spacing: 0.5px;
   color: #0da088;
 }
@@ -204,8 +176,6 @@ div.toggler {
 }
 
 .code {
-  padding-top: 50px;
-  padding-bottom: 90px;
   background-color: #eff4f4;
 }
 
@@ -218,25 +188,21 @@ div.toggler {
 .list__link {
   display: inline-block;
   width: 70%;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   font-family: "Ubuntu Regular";
-  font-size: 30px;
+  font-size: 20px;
   letter-spacing: 0.5px;
   color: #0da088;
 }
 
 .list__txt {
   display: block;
-  margin-left: 50px;
+  margin-left: 9%;
   font-family: "Ubuntu Regular";
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 18px;
+  line-height: 20px;
   letter-spacing: .25px;
   color: #74757b;
-}
-
-.code__txt {
-  width: 85%; 
 }
 
 .list__item {
@@ -247,7 +213,7 @@ div.toggler {
   content: '';
   display: inline-block;
   margin-top: 15px;
-  margin-right: 27px;
+  margin-right: 10px;
   width: 11px;
   height: 11px;
   vertical-align: top;
@@ -257,71 +223,55 @@ div.toggler {
 
 .app__subtitle {
   text-align: left;
-  width: 80%;
 }
 
 .app__slogan {
   display: inline-block;
-  width: 80%;
   margin-top: 5px;
-  margin-bottom: 80px;
-  font-size: 24px;
-  line-height: 28px;
+  margin-bottom: 40px;
+  font-size: 20px;
 }
 
 .app__link {
   width: 71%;
 }
 
-.app__txt {
-  line-height: 30px;
-}
-
 .setup {
-  padding-top: 50px;
-  padding-bottom: 65px;
   background-color: #eff4f4;
-}
-
-.setup__subtitle {
-  width: 80%;
 }
 
 .setup__slogan {
   width: 90%;
-  line-height: 30px;
 }
 
 .iconed_list {
-  margin: 100px 0 100px 0;
+  margin: 50px 0 50px 0;
   padding: 0;
   list-style: none;
 }
 
 .iconed_list__item {
   position: relative;
-  height: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   background-repeat: no-repeat;
 }
 
-.setup__txt, .socials__link {
+.setup__txt,
+.socials__link {
   position: absolute;
   display: inline-block;
   vertical-align: middle;
 }
 
 .setup__txt {
-  top: 35%;
+  top: 0;
   width: 75%;
   font-family: 'Ubuntu Regular';
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 20px;
   color: #393e6b;
 }
 
 .setup__txt_step1 {
-  top: 25%;
 }
 
 .setup__txt_wd {
@@ -331,14 +281,18 @@ div.toggler {
 .iconed_list__item:before {
   content: '';
   display: inline-block;
-  margin-right: 50px;
-  width: 100px;
-  height: 100px;
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   background-color: #2cd3b8;
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 50%;
+}
+
+.setup__item_step1 {
+  margin-bottom: 50px;
 }
 
 .setup__item_step1:before {
@@ -369,13 +323,9 @@ div.toggler {
   background-color: #3b4269;
 }
 
-.socials {
-  padding-top: 100px;
-}
-
 .socials__link {
   top: 15%;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .social__item {
@@ -385,7 +335,6 @@ div.toggler {
 .social__item:before {
   width: 67px;
   height: 67px;
-  margin-bottom: 30px;
   background-color: #fff;
   border-radius: 100%;
 }
@@ -422,7 +371,7 @@ div.toggler {
   display: flex;
   align-items: center;
   height: 166px;
-  padding-left: 80px;
+  padding-left: 10%;
   background-color: #393f6b;
 }
 
@@ -442,446 +391,441 @@ div.toggler {
   color: #fff;
 }
 
-@media (min-width: 1680px) {
-
-.wrapper {
-  width: 1680px;
-}
-.padding {
-  padding-right: 0;
-  padding-left: 330px;
-}
-
-.header {
-  justify-content: flex-end;
-  align-items: center;
-  height: 100px;
-  padding-right: 65px;
-  padding-left: 65px;
-  box-sizing: border-box;
-  background-image: url(../img/hdr_bcgd.png);
-  background-repeat: no-repeat;
-}
-
-.toggler {
-  display: none;
-}
-
-.logo {
-  flex-grow: 0;
-  padding-top: 0;
-  padding-left: 40px;
-}
-
-.logo__img {
-  width: 115px;
-  height: 30px;
-}
-
-.header__txt {
-  display: inline-block;
-  font-family: 'Ubuntu Regular';
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 0.5px;
-  color: #393e6b;
-  text-transform: uppercase;
-}
-
-.login__list, .nav__list {
-  display: block;
-  padding-left: 0;
-}
-
-.nav__list {
-  flex-grow: 1;
-  text-align: right;
-}
-
-.login__item, .nav__item {
-  display: inline-block;
-  padding: 0 13px 0 13px;
-}
-
-.login__btn {
-  border: none;
-  background-color: rgba(255, 255, 255, 0);
-  cursor: pointer;
-}
-
-.nav__link {
-  text-decoration: none;
-}
-
-.promo {
-  background-image: linear-gradient(to top, #eff4f4 99%, #d6dff4);
-}
-
-.title {
-  font-size: 36px;
-  line-height: 20px;
-}
-
-.slogan {
-  width: 49%;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.5px;
-}
-
-.promo__slogan {
-  margin-bottom: 40px;
-}
-
-.btn__wrap {
-  width: 50%;
-}
-
-.btn {
-  display: inline-block;
-  width: 38%;
-  height: 48px;
-  margin-right: 20px;
-  font-size: 14px;
-  letter-spacing: 0.1px;
-}
-
-.btn__trial, .btn__plans {
-  vertical-align: middle;
-}
-
-.btn__plans {
-  border: 1px solid #393e6b;
-}
-
-.subtitle {
-  font-size: 30px;
-  line-height: 35px;
-}
-
-.code__subtitle {
-  margin-bottom: 60px;
-}
-
-.install {
-  padding-top: 45px;
-}
-
-.install__wrap {
-  margin-top: 30px;
-  margin-left: -40px;
-  width: 50%;
-}
-
-.install__inner {
-  width: 38%;
-}
-
-.install__link {
-  width: 100%;
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 0.25px;
-  color: #0da088;
-}
-
-.install__link_register {
-  padding-bottom: 0px;
-}
-
-.install__register {
-  background-image: url(../img/register_wd.png);
-  background-position-y: 45px;
-}
-
-.install__code {
-  background-image: url(../img/code_wd.png);
-  background-position-y: 45px;
-  background-position-x: -5px;
-}
-
-
-.code {
-  padding-bottom: 20px;
-}
-
-.list__item:before {
-  width: 8px;
-  height: 8px;
-}
-
-.list__link {
-  margin-bottom: 0px;
-  font-size: 24px;
-  line-height: 36px;
-}
-
-.list__txt {
-  margin-left: 40px;
-  font-size: 16px;
-  line-height: 36px;
-}
-
-.app {
-  margin-top: 80px;
-}
-
-.app__slogan {
-  width: 100%;
-  margin-bottom: 60px;
-}
-
-.app__link {
-  margin-bottom: 10px;
-}
-
-.app__txt {
-  width: 55%;
-  line-height: 18px;
-}
-
-.app__txt_bold {
-  font-weight: bold;
-}
-
-.setup__slogan {
-  width: 100%;
-}
-
-.setup__txt, .socials__link {
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.setup__txt {
-  top: 25%;
-}
-
-.setup__txt_wd {
-  font-size: 24px;
-}
-
-.iconed_list {
-  margin: 50px 0 50px 0;
-}
-
-.iconed_list__item {
-  margin-bottom: 0px;
-}
-
-.iconed_list__item:before {
-  margin-right: 35px;
-  width: 74px;
-  height: 74px;
-  background-size: 50%;
-}
-
-.setup {
-  padding-bottom: 40px;
-}
-
-.socials {
-  padding-top: 50px;
-}
-
-.socials__slogan {
-  font-weight: bold;
-}
-
-.socials__list {
-  display: flex;
-  flex-wrap: wrap;
-  width: 85%;
-}
-
-.social__item {
-  display: inline-block;
-  width: 30%;
-  margin-bottom: 10px;
-}
-
-.social__item1 {
-  order: 1;
-}
-
-.social__item2 {
-  order: 4;
-}
-
-.social__item3 {
-  order: 7;
-}
-
-.social__item4 {
-  order: 2;
-}
-
-.social__item5 {
-  order: 5;
-}
-
-.social__item6 {
-  order: 3;
-}
-
-.social__item7 {
-  order: 6;
-}
-
-.social__item:before {
-  width: 55px;
-  height: 55px;
-  background-size: 75%;
-  margin-right: 20px;
-}
-
-.socials__link {
-  top: 15%;
-  font-size: 18px;
-}
-
-.footer {
-  position: relative;
-  display: flex;
-  padding-top: 60px;
-  align-items: flex-start;
-  height: 285px;
-}
-
-.footer__logo {
-  display: block;
-  width: 150px;
-  height: 35px;
-  margin-bottom: 20px;
-}
-
-.footer__txt {
-  font-size: 14px;
-  line-height: 18px;
-  color: #b6b9c9;
-}
-
-.footer__contacts {
-  display: block;
-  flex-grow: 1;
-  padding-left: 200px;
-}
-
-.common__phone {
-  display: block;
-  margin-bottom: 20px;
-  text-decoration: none;
-  font-family: "Ubuntu Regular";
-  font-size: 26px;
-  line-height: 24px;
-  color: #fff;
-}
-
-.common__phone:before {
-  content: '';
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-  background-image: url(../img/phone.png);
-  border-radius: 50%;
-  vertical-align: bottom;
-}
-
-.contacts__inner {
-  margin-bottom: 20px;
-}
-
-.contacts__phone {
-  display: block;
-  text-decoration: none;
-  font-family: "Ubuntu Regular";
-  font-size: 22px;
-  line-height: 24px;
-  color: #fff;
-}
-
-.contacts__address {
-  display: block;
-  font-family: "Ubuntu Regular";
-  font-size: 16px;
-  line-height: 24px;
-  color: #adb0c2;
-}
-
-.footer__email {
-  display: block;
-  margin-right: 100px;
-}
-
-.email, .hours {
-  display: block;
-  text-decoration: none;
-}
-
-.email {
-  font-family: "Ubuntu Regular";
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-}
-
-.email_link {
-  margin-bottom: 15px;
-}
-
-.hours {
-  margin-bottom: 15px;
-  font-family: "Ubuntu Regular";
-  font-size: 16px;
-  line-height: 24px;
-  color: #adb0c2;
-}
-
-.email_social_links {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  margin: 0 5px 0 5px;
-  background-image: url(../img/spite.png);
-  background-repeat: no-repeat;
-}
-
-.email_social_links1 {
-  background-position-x: -11px;
-  background-position-y: -6px;
-}
-
-.email_social_links2 {
-  background-position-x: -53px;
-  background-position-y: -6px;
-}
-
-.email_social_links3 {
-  background-position-x: -93px;
-  background-position-y: -6px;
-}
-
-.email_social_links4 {
-  background-position-x: -132px;
-  background-position-y: -6px;
-}
-
-.msg {
-  display: block;
-  position: absolute;
-  right: 50px;
-  bottom: 30px;
-  width: 50px;
-  height: 50px;
-  background-image: url(../img/msg.png);
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-position-y: 50%;
-  border: none;
-  border-radius: 50%;
-  background-color: #06d6d6;
-  cursor: pointer;
-}
-
+@media (min-width: 1024px) {
+
+  .padding {
+    padding-right: 0;
+    padding-left: 20%;
+  }
+
+  .header {
+    justify-content: flex-end;
+    height: 100px;
+    padding-right: 4%;
+    padding-left: 4%;
+    box-sizing: border-box;
+    background-image: url(../img/hdr_bcgd.png);
+    background-repeat: no-repeat;
+  }
+
+  .toggler {
+    display: none;
+  }
+
+  .logo {
+    flex-grow: 0;
+    padding-top: 0;
+    padding-left: 2%;
+    width: auto;
+  }
+
+  .logo__img {
+    width: 115px;
+    height: 30px;
+  }
+
+  .header__txt {
+    display: inline-block;
+    font-family: 'Ubuntu Regular';
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #393e6b;
+    text-transform: uppercase;
+  }
+
+  .login__list, .nav__list {
+    display: block;
+    padding-left: 0;
+  }
+
+  .nav__list {
+    flex-grow: 1;
+    text-align: right;
+  }
+
+  .login__item, .nav__item {
+    display: inline-block;
+    padding: 0 10px 0 10px;
+  }
+
+  .login__btn {
+    padding: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+  }
+
+  .nav__link {
+    text-decoration: none;
+  }
+
+  .promo {
+    padding-top: 50px;
+    background-image: linear-gradient(to top, #eff4f4 99%, #d6dff4);
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .slogan {
+    width: 49%;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+
+  .promo__slogan {
+    margin-bottom: 40px;
+  }
+
+  .btn__wrap {
+    width: 50%;
+  }
+
+  .btn:hover {
+    opacity: 0.7;
+  }
+
+  .btn {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 38%;
+    height: 48px;
+    margin-right: 20px;
+    font-size: 12px;
+  }
+
+  .btn__trial, .btn__plans {
+    vertical-align: middle;
+  }
+
+  .btn__plans {
+    border: 1px solid #393e6b;
+  }
+
+  .subtitle {
+    width: 80%;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .code__subtitle {
+    margin-bottom: 60px;
+  }
+
+  .install {
+    padding-top: 45px;
+  }
+
+  .install__wrap {
+    margin-left: -40px;
+    width: 50%;
+  }
+
+  .install__inner {
+    width: 38%;
+  }
+
+  .install__link {
+    width: 100%;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #0da088;
+  }
+
+  .install__link_register {
+    padding-bottom: 0px;
+  }
+
+  .install__register {
+    background-image: url(../img/register_wd.png);
+    background-position-y: 45px;
+  }
+
+  .install__code {
+    background-image: url(../img/code_wd.png);
+    background-position-y: 45px;
+    background-position-x: -5px;
+  }
+
+  .code {
+    padding-bottom: 20px;
+  }
+
+  .list__item:before {
+    width: 8px;
+    height: 8px;
+  }
+
+  .list__link {
+    margin-bottom: 0px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .list__txt {
+    margin-left: 40px;
+    width: 55%;
+    font-size: 16px;
+  }
+
+  .app {
+    margin-top: 80px;
+  }
+
+  .app__slogan {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .app__link {
+    margin-bottom: 10px;
+  }
+
+  .app__txt {
+    line-height: 18px;
+  }
+
+  .app__txt_bold {
+    font-weight: bold;
+  }
+
+  .setup__slogan {
+    width: 85%;
+  }
+
+  .setup__txt, .socials__link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .setup__txt {
+    top: 25%;
+  }
+
+  .setup__txt_wd {
+    font-size: 24px;
+  }
+
+  .iconed_list__item {
+    margin-bottom: 10px;
+  }
+
+  .iconed_list__item:before {
+    margin-right: 35px;
+    width: 74px;
+    height: 74px;
+    background-size: 50%;
+  }
+
+  .setup {
+    padding-bottom: 40px;
+  }
+
+  .socials {
+    padding-top: 50px;
+  }
+
+  .socials__slogan {
+    width: 85%;
+    font-weight: bold;
+  }
+
+  .socials__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .social__item {
+    display: inline-block;
+    width: 33%;
+    margin-bottom: 10px;
+  }
+
+  .social__item1 {
+    order: 1;
+  }
+
+  .social__item2 {
+    order: 4;
+  }
+
+  .social__item3 {
+    order: 7;
+  }
+
+  .social__item4 {
+    order: 2;
+  }
+
+  .social__item5 {
+    order: 5;
+  }
+
+  .social__item6 {
+    order: 3;
+  }
+
+  .social__item7 {
+    order: 6;
+  }
+
+  .social__item:before {
+    width: 55px;
+    height: 55px;
+    background-size: 75%;
+    margin-right: 20px;
+  }
+
+  .socials__link {
+    top: 15%;
+    font-size: 18px;
+  }
+
+  .footer {
+    position: relative;
+    display: flex;
+    padding-top: 60px;
+    padding-right: 5%;
+    padding-bottom: 60px;
+    align-items: flex-start;
+  }
+
+  .footer__logo {
+    display: block;
+    width: 150px;
+    height: 35px;
+    margin-bottom: 20px;
+  }
+
+  .footer__txt {
+    font-size: 14px;
+    line-height: 18px;
+    color: #b6b9c9;
+  }
+
+  .footer__contacts {
+    display: block;
+    flex-grow: 1;
+    margin-left: 6%;
+  }
+
+  .common__phone {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-family: "Ubuntu Regular";
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .common__phone:before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-image: url(../img/phone.png);
+    border-radius: 50%;
+    vertical-align: bottom;
+  }
+
+  .contacts__inner {
+    margin-bottom: 20px;
+  }
+
+  .contacts__phone {
+    display: block;
+    text-decoration: none;
+    font-family: "Ubuntu Regular";
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .contacts__address {
+    display: block;
+    font-family: "Ubuntu Regular";
+    font-size: 16px;
+    line-height: 24px;
+    color: #adb0c2;
+  }
+
+  .footer__email {
+    display: block;
+    margin-left: 5%;
+  }
+
+  .email, .hours {
+    display: block;
+    text-decoration: none;
+  }
+
+  .email {
+    font-family: "Ubuntu Regular";
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .email_link {
+    margin-bottom: 15px;
+  }
+
+  .hours {
+    margin-bottom: 15px;
+    font-family: "Ubuntu Regular";
+    font-size: 16px;
+    line-height: 24px;
+    color: #adb0c2;
+  }
+
+  .email_social_links {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0 5px 0 5px;
+    background-image: url(../img/spite.png);
+    background-repeat: no-repeat;
+  }
+
+  .email_social_links1 {
+    background-position-x: -11px;
+    background-position-y: -6px;
+  }
+
+  .email_social_links2 {
+    background-position-x: -53px;
+    background-position-y: -6px;
+  }
+
+  .email_social_links3 {
+    background-position-x: -93px;
+    background-position-y: -6px;
+  }
+
+  .email_social_links4 {
+    background-position-x: -132px;
+    background-position-y: -6px;
+  }
+
+  .msg {
+    display: block;
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/msg.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    border: none;
+    border-radius: 50%;
+    background-color: #06d6d6;
+    cursor: pointer;
+  }
 }
